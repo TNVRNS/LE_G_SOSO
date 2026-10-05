@@ -1,0 +1,90 @@
+[
+  {
+    "event": "login",
+    "user": "alice",
+    "result": "failure",
+    "timestamp": "2026-10-05 03:02:26",
+    "args": [
+      "alice",
+      "SecurePass123!"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "alice",
+    "result": "failure",
+    "timestamp": "2026-10-05 03:03:47",
+    "args": [
+      "alice",
+      "SecurePass123!"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "alice",
+    "result": "failure",
+    "timestamp": "2026-10-05 03:04:18",
+    "args": [
+      "alice",
+      "SecurePass123!"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "alex",
+    "result": "success",
+    "timestamp": "2026-10-05 03:08:06",
+    "args": [
+      "alex",
+      "Qwerty27!TA@x9K2!2"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "alex",
+    "result": "failure",
+    "timestamp": "2026-10-05 03:08:06",
+    "args": [
+      "alex",
+      "WrongPassword123!"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "unknown",
+    "result": "failure",
+    "timestamp": "2026-10-05 03:08:06",
+    "args": [
+      "unknown",
+      "Qwerty27!TA@x9K2!2"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "",
+    "result": "failure",
+    "timestamp": "2026-10-05 03:08:06",
+    "args": [
+      "",
+      "Qwerty27!TA@x9K2!2"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "alex",
+    "result": "failure",
+    "timestamp": "2026-10-05 03:08:06",
+    "args": [
+      "alex",
+      ""
+    ],
+    "kwargs": {}
+  }
+]
