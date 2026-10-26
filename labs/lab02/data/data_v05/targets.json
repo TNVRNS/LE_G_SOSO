@@ -1,0 +1,46 @@
+[
+  {
+    "host": "127.0.0.1",
+    "port": 22
+  },
+  {
+    "host": "127.0.0.1",
+    "port": 80
+  },
+  {
+    "host": "localhost",
+    "port": 443
+  },
+  {
+    "host": "192.0.2.10",
+    "port": 80
+  },
+  {
+    "host": "198.51.100.20",
+    "port": 443
+  },
+  {
+    "host": "203.0.113.30",
+    "port": 22
+  },
+  {
+    "host": "service.example.invalid",
+    "port": 8080
+  },
+  {
+    "host": "db.example.invalid",
+    "port": 5432
+  },
+  {
+    "host": "bad host name",
+    "port": 80
+  },
+  {
+    "host": "999.10.10.10",
+    "port": 443
+  },
+  {
+    "host": "api.example.invalid",
+    "port": 70000
+  }
+]

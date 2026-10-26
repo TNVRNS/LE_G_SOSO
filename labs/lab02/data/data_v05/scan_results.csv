@@ -1,0 +1,12 @@
+host,port,service,status,response_time_ms,notes
+127.0.0.1,22,SSH,OFFLINE,,Connection refused
+127.0.0.1,80,HTTP,OFFLINE,,Connection refused
+localhost,443,HTTPS,OFFLINE,,Connection refused
+192.0.2.10,80,HTTP,OFFLINE,,Connection timed out
+198.51.100.20,443,HTTPS,OFFLINE,,Connection timed out
+203.0.113.30,22,SSH,OFFLINE,,Connection timed out
+service.example.invalid,8080,HTTP-ALT,OFFLINE,,DNS resolution failed: getaddrinfo failed
+db.example.invalid,5432,PostgreSQL,OFFLINE,,DNS resolution failed: getaddrinfo failed
+bad host name,80,N/A,INVALID,,Invalid host name
+999.10.10.10,443,N/A,INVALID,,Invalid IPv4 address
+api.example.invalid,70000,N/A,INVALID,,Port 70000 out of range (1-65535)
